@@ -10,7 +10,7 @@
   <link rel="icon" type="image/x-icon" href="..//img/logo/logo.ico">
   <link rel="stylesheet" href="BookStyle.css">
   <script src="https://kit.fontawesome.com/9a05771681.js" crossorigin="anonymous"></script>
-  <title>The Three Questions</title>
+  <title>The Apple</title>
 </head>
 
 <body>
@@ -21,10 +21,10 @@
 <header id="header">
   <div id="nav">
     <div id="logo">
-      <a href="Home.html"><img src="../img/logo/logo.png" alt="test image" class="responsive"></a>
+      <a href="index.html"><img src="../img/logo/logo.png" alt="test image" class="responsive"></a>
     </div>
     <div class="topnav" id="myTopnav">
-      <a href="../Home.html">Home</a>
+      <a href="../index.html">Home</a>
       <a href="../BooksPage.html">Books</a>
       <a href="../likes.html">Likes</a>
       <a href="../aboutus.html">AboutUs</a>
@@ -53,35 +53,35 @@
         <div class="wrapper">
             <div class="main_card">
                 <div class="card_left">
-                    <div class="card_datails" data-price="31" data-name="The Three Questions" data-image="img/Books/The Three Questions.jpg">
-                        <h1>The Three Questions by:Leo Tolstoy</h1>
+                    <div class="card_datails" data-price="30" data-name="The Apple" data-image="img/Books/The Apple.jpg">
+                        <h1>The Apple by:Rosie Sanders
+                        </h1>
                         <div class="card_cat">
-                            
-                            <p class="year">1903</p>
-                            <p class="genre">RUSSIAN </p>
-                            <p class="time">0h 12m</p>
+                            <p class="year">1898</p>
+                            <p class="genre">FICTION </p>
+                            <p class="time">6h 28m</p>
                         </div>
-                        <p class="disc">is a 1903 short story by Russian author Leo Tolstoy as part of the collection ...
+                        <p class="disc">Published in the United States in 1898, The Apple is profound research and practical book on the cultivation of apples.
                             </p>
                     <div class="social-btn">
                         <button onclick="openwindow()">
                             <i class="fas fa-play"  ></i> PLAY
                         </button>
-                        <a href="https://www.fa.org/uploaded/US_Attachments/SR9Questions.pdf"><button>
+                        <a href="https://www.fanshawelibrary.com/wp-content/uploads/2021/02/Downloading-eBooks-Mobile-Apple.pdf"><button>
                             <i class="fas fa-download"></i> DOWNLOAD
                         </button></a>
                         <button class="add-to-cart">
                             BUY
                         </button>
-                        <button id="Book8" class="likeButton">like
+                        <button id="Book3" class="likeButton">like
                             <i class="fas fa-thumbs-up"></i> 
-                        </button>    
+                        </button>
                     </div>	
                     </div>
                 </div>
                 <div class="card_right">
                     <div class="img_container">
-                        <img src="../img/Books/The Three Questions.jpg" width="250px">
+                        <img src="../img/Books/The Apple.jpg" width="250px">
                         </div>
                         <div class="play_btn">
                             <a onclick="openwindow()" target="_blank">
@@ -92,10 +92,8 @@
                 </div>
             </div>
        
-    
-<!-- ____________________________________________ BOOK _______________________________________________________ -->            
-            
-       
+<!-- ____________________________________________ BOOK _______________________________________________________ -->
+
 <!-- ____________________________________________ RELATED BOOKS _______________________________________________________ -->       
     
 <h1>Related Books</h1>
@@ -179,9 +177,8 @@
 <script src="../script/contact.js"></script>
 <script>
 
-  var bookId = '1';
+  var bookId = '6';
   sessionStorage.setItem('selectedBookId', bookId);
-
   const modeToggle = document.getElementById('mode-toggle');
   const body = document.body;
   modeToggle.addEventListener('click', () => {
